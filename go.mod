@@ -1,8 +1,11 @@
-module github.com/pantry-io-api
+module github.com/salmmike/pantry-io-api
 
 go 1.18
 
-require github.com/gin-gonic/gin v1.8.1
+require (
+	github.com/gin-gonic/gin v1.8.1
+	github.com/lib/pq v1.10.7
+)
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
@@ -23,6 +26,4 @@ require (
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	rsc.io/quote v1.5.2 // indirect
-	rsc.io/sampler v1.3.0 // indirect
 )
